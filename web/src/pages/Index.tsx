@@ -1,5 +1,5 @@
-import Banner from './components/index/Banner';
-import ToggleButton from './components/darkmode/ToggleButton';
+import Banner from '../components/index/Banner';
+import ToggleButton from '../components/darkmode/ToggleButton';
 
 const Index = () => { 
     

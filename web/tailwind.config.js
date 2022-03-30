@@ -1,7 +1,7 @@
 module.exports = {
     darkMode: 'class',
     content: [
-      "./src/**/*.{js,jsx,ts,tsx,svg}",
+      "./src/**/*.{js,jsx,ts,tsx}",
     ],
     theme: {
       extend: {

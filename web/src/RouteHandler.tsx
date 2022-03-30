@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Index from './Index';
+import Index from './pages/Index';
 
 
 const RouteHandler = () => {
