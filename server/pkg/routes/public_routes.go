@@ -16,11 +16,6 @@ type Route struct {
 var routes = []Route{
 	{
 		Method:      http.MethodGet,
-		Pattern:     "/",
-		HandlerFunc: controllers.Root,
-	},
-	{
-		Method:      http.MethodGet,
 		Pattern:     "/test",
 		HandlerFunc: controllers.Test,
 	},
