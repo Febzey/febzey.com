@@ -38,13 +38,10 @@ func LoadEnv() {
 
 func main() {
 	LoadEnv()
-
 	router := mux.NewRouter()
 	routes.Public(router)
 	router.Use(mux.CORSMethodMiddleware(router))
 	FileServer(router)
-
 	server := configs.ServerConfig(router)
 	utils.StartServer(server)
-
 }
